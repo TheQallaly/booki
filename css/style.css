@@ -13,6 +13,26 @@
     color: var(--main-color);
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div {
+    margin-top: 10px;
+}
+
+header div a {
+    padding: 10px;
+    color: black;
+}
+
+header figure img {
+    height: 19px;
+    width: 61,09px;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -23,6 +43,11 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
 }
 
 .section-title {
@@ -86,7 +111,7 @@ body {
 .hebergements-cards {
     display: flex;
     margin-top: 33px;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 
