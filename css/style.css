@@ -120,6 +120,7 @@ h1 {
     justify-content: space-around;
     display: grid;
     grid-template-columns: 250.33px 250.33px 250.33px ;
+    flex-wrap: wrap;
 }
 
 
