@@ -199,7 +199,54 @@ h1 {
     margin-bottom: 5px;
 }
 
+/****** Activites ***********/
+.activites {
+    width: 32%;
+}
 
+.activite figure {
+    display: flex;
+    width: 297.5px;
+    height: 59px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activites-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activites-cards {
+    display: flex;
+    flex-direction: row ;
+}
+
+.activites-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.activites-cards img {
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activites-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.activites-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
