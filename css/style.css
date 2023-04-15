@@ -200,8 +200,11 @@ h1 {
 }
 
 /****** Activites ***********/
-.activites {
-    width: 32%;
+
+.activite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .activite figure {
@@ -210,6 +213,11 @@ h1 {
     height: 59px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+figcaption h2 {
+    padding-top: 60px;
+    padding-bottom: -24px;
 }
 
 .activites-title {
@@ -221,6 +229,7 @@ h1 {
 .activites-cards {
     display: flex;
     flex-direction: row ;
+    justify-content: space-around;
 }
 
 .activites-cards .card {
