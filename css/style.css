@@ -204,10 +204,11 @@ h1 {
     width: 100%;
 }
 
-.activite {
+.activites {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: -24px;
 }
 
 figcaption h2 {
@@ -226,24 +227,23 @@ figcaption h2 {
     flex-direction: column;
 }
 
-.activites-cards .card img {
+.aam section div img {
     width: 297.5px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.activites-cards .card-content {
+.activites-cards figure figcaption {
     width: 100%;
     padding-left: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .activites-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
