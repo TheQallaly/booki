@@ -9,6 +9,27 @@
     --filter-bg-color: #DEEBFF;
 }
 
+figure {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -264,7 +285,6 @@ footer figure figcaption h2 {
     font-size: 18px;
 }
 
-footer figure {}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
