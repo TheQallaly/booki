@@ -157,6 +157,11 @@ header section li:focus {
   cursor: pointer;
 }
 
+button:hover,
+button:focus {
+    cursor: pointer;
+}
+
 header aside {
   display: flex;
   justify-content: flex-start;
