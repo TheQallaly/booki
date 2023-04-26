@@ -30,6 +30,16 @@ a {
   color: #000;
 }
 
+section p {
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+section p:hover,
+section p:focus {
+    cursor: pointer;
+}
+
 .fa-solid {
   color: var(--main-color);
 }
@@ -236,6 +246,8 @@ body {
   border-radius: 15px;
   padding: 30px;
   box-sizing: border-box;
+  padding-bottom: 20px;
+  margin-bottom: 65px;
 }
 
 /****** Hebergements ***********/
@@ -247,11 +259,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
   display: flex;
-  margin-top: 33px;
+  margin: 0;
   flex-direction: column;
   border-radius: 20px;
 }
@@ -357,8 +370,7 @@ body {
   margin-top: -24px;
 }
 
-figcaption h2 {
-  padding-top: 60px;
+article h2 {
   padding-bottom: 32px;
 }
 
@@ -398,19 +410,30 @@ figcaption h2 {
 /****** Footer ***********/
 
 footer {
+  width: 1340px;
+  height: 163px;
   margin-top: 65px;
-  background-color: #F2F2F2;
+  margin-bottom: 60.5px;
+  background-color: var(--main-bg-color);
   padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-footer figure figcaption h2 {
-  font-size: 18px;
+footer section {
+  width: 446.66px;
+  margin-left: 20px;
+  gap: 15px;
 }
 
+h3 {
+  margin: 0;
+}
 
+footer section ul {
+  display: flexbox;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
