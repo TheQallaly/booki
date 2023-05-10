@@ -61,7 +61,6 @@ nav ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 nav a {
@@ -452,9 +451,9 @@ footer ul {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   header section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
   }
 
   .hebergements-and-populaires {
@@ -466,7 +465,7 @@ footer ul {
   }
 
   .hebergements-cards {
-    justify-content: space-around;
+      justify-content: space-around;
   }
 
   .populaires {
@@ -492,15 +491,50 @@ footer ul {
   }
 
   .activites img {
-    height: 200px;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 20px 20px 0 0;
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 20px 20px 0 0;
   }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  header nav img {
+      display: flex;
+      height: 19px;
+      width: 61,09px;
+      margin-top: 30px;
+      margin-left: 0;
+      align-self: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 10px;
+      border-bottom: 2px solid transparent;
+      border-top: 0;
+  }
+
+  header nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+  }
+
+  header section ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+
   .hebergements-and-populaires {
       flex-direction: column;
   }
