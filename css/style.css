@@ -396,7 +396,7 @@ main > article {
 
 .activites figure {
   border-radius: 20px;
-  box-shadow: 0 0 50px var(--main-bg-color);
+  box-shadow: 0 5px 5px var(--main-bg-color);
   
 }
 
