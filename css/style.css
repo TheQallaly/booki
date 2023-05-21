@@ -605,7 +605,7 @@ footer ul {
   }
 
   .hebergements-and-populaires section {
-      border-radius: 15px;
+      border-radius: 0px;
       padding: 30px 20px;
       box-sizing: border-box;
       margin-bottom: 10px;
