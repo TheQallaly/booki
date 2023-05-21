@@ -424,7 +424,7 @@ main > article {
 
 footer {
   margin-top: 65px;
-  margin-bottom: 60.5px;
+  margin-bottom: 0;
   background-color: var(--main-bg-color);
   padding: 20px 300px 20px 10px;
   display: flex;
@@ -503,7 +503,7 @@ footer ul {
 
   footer {
     margin-top: 65px;
-    margin-bottom: 60.5px;
+    margin-bottom: 0;
     background-color: var(--main-bg-color);
     padding: 20px 300px 20px 10px;
     display: flex;
@@ -694,7 +694,7 @@ footer ul {
       gap: 50px;
       padding: 30px 60px;
       margin-top: 65px;
-      margin-bottom: 60.5px;
+      margin-bottom: 0;
   }
 
   footer section {
