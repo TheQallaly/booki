@@ -663,6 +663,13 @@ footer ul {
     height: 207px;
   }
 
+  .hebergements-cards .card-subtitle {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 8px;
+    font-weight: 400;
+  }
+
   section p {
     margin-top: 20px;
   }
