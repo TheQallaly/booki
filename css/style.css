@@ -605,7 +605,7 @@ footer ul {
     line-height: 21px;
     background-color: var(--main-color);
     border: 3px solid var(--main-color);
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 15px 15px 15px 15px;
   }
 
   header form .fa-magnifying-glass {
