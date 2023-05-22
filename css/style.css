@@ -589,7 +589,7 @@ footer ul {
     font-size: 15px;
     font-weight: 700;
     border: 1px solid var(--main-bg-color);
-    width: 170px;
+    width: 100%;
   }
 
   .search {
