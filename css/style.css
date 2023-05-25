@@ -483,6 +483,13 @@ footer ul {
       width: 30%;
   }
 
+  .populaires-cards img {
+    width: 80px;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
   .populaires-cards .card-title {
       font-size: 14px;
   }
@@ -527,7 +534,6 @@ footer ul {
   header h1,p,form,section,aside{
     padding: 0px 20px;
   }
-
 
   header nav img {
       display: flex;
