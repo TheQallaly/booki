@@ -223,11 +223,11 @@ body {
 }
 
 .card-title {
-  font-size: 16px;
+  font-size: 0.85rem;
 }
 
 .card-subtitle {
-  font-size: 14px;
+  font-size: 0.75rem;
 }
 
 .euro {
@@ -299,12 +299,14 @@ body {
 .hebergements-cards .card-title {
   margin-top: 10px;
   margin-bottom: 4px;
+  margin-left: -5px;
   width: 220.33px;
   height: 19px;
 }
 
 .hebergements-cards .card-subtitle {
   margin: 0;
+  margin-left: -4px;
   font-weight: 400;
 }
 
@@ -348,11 +350,13 @@ body {
 .populaires-cards .card-title {
   margin-top: 10px;
   margin-bottom: 4px;
+  font-size: 1rem;
 }
 
 .populaires-cards .card-subtitle {
   margin: 0;
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .populaires-cards .card-rating {
@@ -451,6 +455,15 @@ footer ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .card-title {
+        font-size: 0.9rem;
+      }
+      
+      .card-subtitle {
+        font-size: 0.85rem;
+      }
+
   header section {
       display: flex;
       flex-direction: column;
@@ -535,6 +548,14 @@ footer ul {
     max-width: 1440px;
     padding: 0px 0px;
     box-sizing: border-box;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-subtitle {
+    font-size: 0.9rem;
   }
 
   header h1,p,form,section,aside{
@@ -699,6 +720,10 @@ footer ul {
     border-radius: 20px;
     width: 100%;
     height: 207px;
+  }
+
+  .hebergements-cards .card-title {
+    margin-left: 0;
   }
 
   .hebergements-cards .card-subtitle {
