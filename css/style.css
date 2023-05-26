@@ -607,6 +607,7 @@ footer ul {
     background-color: var(--main-color);
     border: 3px solid var(--main-color);
     border-radius: 15px 15px 15px 15px;
+    margin-left: -20px;
   }
 
   header form .fa-magnifying-glass {
