@@ -421,6 +421,10 @@ main > article {
   margin-bottom: 0px;
 }
 
+b {
+    font-size: 0.95rem;
+}
+
 /****** Footer ***********/
 
 footer {
@@ -522,6 +526,10 @@ footer ul {
       object-fit: cover;
       width: 100%;
       border-radius: 20px 20px 0 0;
+  }
+
+  b {
+    font-size: 0.87rem;
   }
 
   footer {
